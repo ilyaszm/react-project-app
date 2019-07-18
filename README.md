@@ -1,68 +1,80 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# REACT APP - Fetch Github Repos
 
-## Available Scripts
+> Small React app that list the most starred Github repos that were created in the last 30 days (relative to 2017-11-22)
 
-In the project directory, you can run:
+This app is basically listing most starred repos using [Github API](https://developer.github.com/v3/). And by scrolling to bottom new repos are being fetched using infinite scroll method.
 
-### `npm start`
+## Table of contents
+* [Why React](#why-react)
+* [Technologies Used](#technologies-used)
+* [Live App](#live-app)
+* [Packages & Libraries Used](#packages-&-libraries-used)
+* [Contributing](#contributing)
+* [Support](#support)
+* [License](#license)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Why React?
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+The main reason why I build this app React is beacause React is leading the front end web development. Second, I find it easy to learn and to adapt.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* React js
+* HTML
+* Bootstrap 4
+* CSS
 
-### `npm run build`
+## Live App
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To view and test the app you can visit this [link](https://reactapp.netlify.com).
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Packages & Libraries Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [axios](https://github.com/axios/axios)
+* [react-infinite-scroll-component](https://www.npmjs.com/package/react-infinite-scroll-component)
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Pull requests are welcome. Please feel free to open an issue first to discuss what you would like to change.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The process to start is simple, just make sure you have [Node js](https://nodejs.org/en/) installed in your computer. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+And add the following commands:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+    git clone /path/[Repository]
 
-## Learn More
+    cd /path/[Repository-Directory]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    npm start
+```
+or use yarn
+```bash
+    git clone /path/[Repository]
 
-### Code Splitting
+    cd /path/[Repository-Directory]
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+    yarn install
 
-### Analyzing the Bundle Size
+    yarn start
+```
+.. happy Coding..!!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Support
 
-### Advanced Configuration
+You can reach out to me!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- Gmail <a href="mailto:zmr.ilyas@gmail.com" target="_blank">`zmr.ilyas@gmail.com`</a>
 
-### Deployment
+## Final Words
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+If you like the app, please give it a star. It will mean a lot for me :)
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2019 © izem.
