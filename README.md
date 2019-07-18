@@ -26,7 +26,7 @@ The main reason why I build this app React is beacause React is leading the fron
 
 ## Live App
 
-To view and test the app you can visit this [link](https://reactapp.netlify.com).
+To view and test the app you can visit this [link](https://reactprojectapp.netlify.com/).
 
 ## Packages & Libraries Used
 
