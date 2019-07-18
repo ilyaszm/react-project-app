@@ -62,8 +62,6 @@ or use yarn
 ```
 .. happy Coding..!!
 
-
-
 ## Support
 
 You can reach out to me!
@@ -78,3 +76,5 @@ If you like the app, please give it a star. It will mean a lot for me :)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
 - Copyright 2019 © izem.
+
+####  The API requests may change for some reasons. For more informations visit this [link](https://developer.github.com/v3/search/#search-repositories).
